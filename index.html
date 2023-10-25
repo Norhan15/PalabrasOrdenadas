@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Juego de Palabras</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="contenedor-palabra">
+            <h2>Palabra aleatoria:</h2>
+            <p id="palabraDesordenada"></p>
+            <h2>Cantidad de Palabras Acertadas:</h2>
+            <p id="acertadas">0</p>
+        </div>
+    </div>
+
+    <div class="contenedor-input">
+        <input class="Letra" name="text1" type="text" maxlength="1">
+        <input class="Letra" name="text2" type="text" maxlength="1" disabled>
+        <input class="Letra" name="text3" type="text" maxlength="1" disabled>
+        <input class="Letra" name="text4" type="text" maxlength="1" disabled>
+        <input class="Letra" name="text5" type="text" maxlength="1" disabled>
+    </div>
+
+    <div class="contenedor-errores">
+        <h2>Cantidad de errores:</h2>
+        <p id="error-cant">0</p>
+        <button id="reset-button">Reiniciar</button>
+        <button id="nueva-button">Nueva Palabra</button>
+    </div>
+
+    <script src="./script.js"> </script>
+</body>
+</html>

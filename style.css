@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.contenedor {
+    margin-bottom: 20px;
+}
+
+.contenedor-palabra {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+.contenedor-input {
+    margin-top: 20px;
+}
+
+.Letra {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.contenedor-errores {
+    margin-top: 20px;
+}
+
+#error-cant {
+    font-size: 24px;
+    color: red;
+    margin: 0;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+}
